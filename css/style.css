@@ -2,6 +2,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 }
+
 /* 3171cf */
 p,
 input,
@@ -57,7 +58,7 @@ a:focus {
 	top: 15px;
 }
 
-.logo img{
+.logo img {
 	width: 50px;
 }
 
@@ -140,7 +141,7 @@ a:focus {
 	text-align: center;
 	position: relative;
 	background: url('../img/bg-new.jpg');
-	background-size: 100% 586px;
+	background-size: 100% 100%;
 	color: #fff;
 }
 
@@ -154,9 +155,11 @@ a:focus {
 	background: #333;
 	opacity: 0.5;
 }
-.jumbotron .container{
+
+.jumbotron .container {
 	margin-top: 260px;
 }
+
 .jumbotron p {
 	color: #fff;
 }
@@ -272,7 +275,7 @@ PORTFOLIO
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 	color: #fff;
 	text-align: center;
 	font-size: 18px;
