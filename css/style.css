@@ -136,13 +136,20 @@ a:focus {
 	line-height: 30px;
 }
 
-
 .jumbotron {
 	text-align: center;
 	position: relative;
 	background: url('../img/bg-new.jpg');
 	background-size: 100% 100%;
 	color: #fff;
+	height: 715px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-info {
+	position: relative;
 }
 
 .jumbotron .mask {
@@ -156,9 +163,9 @@ a:focus {
 	opacity: 0.5;
 }
 
-.jumbotron .container {
+/* .jumbotron .container {
 	margin-top: 260px;
-}
+} */
 
 .jumbotron p {
 	color: #fff;
@@ -169,12 +176,6 @@ a:focus {
 	margin-bottom: 30px;
 }
 
-.header-info {
-	position: relative;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
-}
 
 /***
 SERVICES
